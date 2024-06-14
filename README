@@ -1,0 +1,42 @@
+Rastrear cada PRODUTO individualmente
+Definir quantidades minimas e receber alertas quando estivermos ficando sem o PRODUTO
+Historico de VENDAS e dos PRODUTOS em estoque
+Observar tendencias de ESTOQUE ao longo do tempo
+
+ENTIDADES
+
+PRODUTO
+    id
+    tamanho
+    cor
+    valor
+
+ESTOQUE
+    produtoId
+    quantidadeMinimaEstoque
+    quantidadeEstoque
+    ordemCompra
+
+FORNECEDORES
+    id
+    nome
+    cnpj
+
+## CASOS DE USO DA APLICAÇÃO
+
+CASOS DE USO
+
+VENDAS
+    id
+    produtoId
+    quantidade
+    valor
+    data
+
+HISTORICO
+    vendasId
+    dataInicial
+    dataFinal
+
+
+
